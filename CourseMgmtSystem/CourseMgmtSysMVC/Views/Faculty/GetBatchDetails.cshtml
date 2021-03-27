@@ -1,0 +1,46 @@
+﻿@model IEnumerable<CourseMgmtSysMVC.Models.Batch>
+
+@{
+    ViewBag.Title = "GetBatchDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GetBatchDetails</h2>
+
+<p>
+    @Html.ActionLink("Create New Batch", "AddNewBatch")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BatchName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BatchLocation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BatchStatus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BatchName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BatchLocation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BatchStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BatchID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BatchID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BatchID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,12 @@
+C:\Users\Training\Desktop\UpdateCourse\CourseMgmtSystem\Model\bin\Debug\Model.dll
+C:\Users\Training\Desktop\UpdateCourse\CourseMgmtSystem\Model\bin\Debug\Model.pdb
+C:\Users\Training\Desktop\UpdateCourse\CourseMgmtSystem\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Training\Desktop\UpdateCourse\CourseMgmtSystem\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Training\Desktop\UpdateCourse\CourseMgmtSystem\Model\obj\Debug\Model.dll
+C:\Users\Training\Desktop\UpdateCourse\CourseMgmtSystem\Model\obj\Debug\Model.pdb
+C:\Users\rsris\Downloads\dfghjkl\CourseMgmtSystem\Model\bin\Debug\Model.dll
+C:\Users\rsris\Downloads\dfghjkl\CourseMgmtSystem\Model\bin\Debug\Model.pdb
+C:\Users\rsris\Downloads\dfghjkl\CourseMgmtSystem\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\rsris\Downloads\dfghjkl\CourseMgmtSystem\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\rsris\Downloads\dfghjkl\CourseMgmtSystem\Model\obj\Debug\Model.dll
+C:\Users\rsris\Downloads\dfghjkl\CourseMgmtSystem\Model\obj\Debug\Model.pdb

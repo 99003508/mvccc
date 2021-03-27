@@ -1,0 +1,58 @@
+﻿@model IEnumerable<CourseMgmtSysMVC.Models.Track>
+
+@{
+    ViewBag.Title = "GetTrackDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GetTrackDetails</h2>
+
+<p>
+    @Html.ActionLink("Create New Track", "AddNewTrack")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TrackName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TrackDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TrackStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BatchID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TrackDuration)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrackName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrackDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrackStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BatchID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrackDuration)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TrackID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TrackID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TrackID })
+        </td>
+    </tr>
+}
+
+</table>
